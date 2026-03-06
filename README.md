@@ -8,7 +8,7 @@
 
 pip install -r requirements.txt
 ## Run the server
-python -m uvicorn api:app --reload --port 8001
+python -m uvicorn main:app --reload --port 8001
 ## Endpoints
 
 - GET /tweets
